@@ -73,7 +73,7 @@ gulp.task("html", function() {
 
 // CSS task
 gulp.task("css", function() {
-    return gulp.src("src/scss/main.scss")
+    return gulp.src("src/styles/styles.css")
         // Prevent gulp.watch from crashing
         .pipe(plumber(onError))
         // Compile Sass

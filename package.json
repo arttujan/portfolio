@@ -1,8 +1,8 @@
 {
-  "name": "projekti",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "author": "hype",
+  "author": "arttujantunen",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"

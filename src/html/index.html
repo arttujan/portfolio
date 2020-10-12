@@ -1,96 +1,180 @@
-@@include("partials/head.html")
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minimal Resume Template</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-    <!-- Header -->
-    <header class="pt2 pb1 align--center">
-        <div class="container">
-            <h1 title="Kaste App"><img class="logo" src="/img/logotext.png" alt="Kaste App"></h1>
-            <p>Suoratoistosovellus opetuskäyttöön</p>
-        </div>
-    </header>
+	<div class="container">
+		<div class="hero">
+			<h1 class="name"><strong>Abbie</strong> Bradley</h1>
+			<span class="job-title">Developer</span>
+			<span class="email">abbie.bradley@gmail.com</span>
 
-    <!-- Body -->
-    <main>
-        
-        <div class="container">
+			<h2 class="lead">Development and design of web applications 
+for startups and large companies</h2>
+		</div>
+	</div>
 
-            <!-- Tietoja -->
-            <section class="grid-row grid-row--center">
-                <!-- KUVAUS -->
-                <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
-                    <div class="relative">
-                        <img class="info-image relative z2" src="/img/logo_600x600.png" alt="Cabin">
-                        <div class="pattern pattern--left-down absolute z1"></div>
-                    </div>
-                </div>
-                <div class="grid-column span-half pl1 pr1 pt3 pb3 mobile-m order-2">
-                    <h3>Kuvaus</h3>
-                    <p> Interaktiivinen suoratoistopalvelu opiskeluun. Mahdollistaa opiskelun suoratoistona paikasta- sekä ryhmäkoosta riippumatta.</p>
-                </div>
-                <!-- SPEKSIT -->
-                <div class="grid-column span-half pl1 pr1 pt3 pb3 mobile-m order-4">
-                    <h3>Ominaisuudet</h3>
-                    <div>
-                        <p>Matalan viiveen suoratoisto.</p>
-                    </div>
-                    <div>
-                        <p>Käyttöjärjestelmäriippumaton.</p>
-                    </div>  
-                    <div>
-                        <p>Oppilaitostunnuksella kirjautuminen.</p>
-                    </div>
-                    <div>
-                        <p>Välitön palaute lähetyksen aikaisista kysymyksistä.</p>
-                    </div>
-                </div>
-                <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
-                    <div class="relative">
-                        <img class="info-image relative z2" src="/img/phone.png" alt="Teepee">
-                        <div class="pattern pattern--right-middle absolute z1"></div>
-                    </div>
-                </div>
-                <!-- LISÄÄ 
-                <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
-                    <div class="relative">
-                        <img class="info-image relative z2" src="/img/fishing.jpg" alt="Fishing">
-                        <div class="pattern pattern--left-up absolute z1"></div>
-                    </div>
-                </div>
-                <div class="grid-column span-half pt3 pb3 mobile-m order-6">
-                    <h3>Fishing</h3>
-                    <p>Que Manilium, ab iisque M. Intellegi quidem, ut propter aliam quampiam rem, verbi gratia propter voluptatem, nos amemus; An eum locum libenter invisit&nbsp;ultimas.</p>
-                </div> -->
-            </section>
+<!-- Skills and intrest section -->
+	<div class="container">
 
-        </div>
+		<div class="sections">
+			<h2 class="section-title">Skills</h2>
 
-        <!-- TULOSSA -->
-        <section class="align--center pt2 pb3">
-            <p class="h2">Tulossa syksyllä 2020</p>
-        </section>
+			<div class="list-card">
+				<span class="exp">+ 5 years</span>
+				<div>
+					<h3>Object programming & frameworks</h3>
+					<span>PHP, Symfony, Laravel, Silex, …</span>
+				</div>
+			</div>
+			
+			<div class="list-card">
+				<span class="exp">+ 3 years</span>
+				<div>
+					<h3>Design integration</h3>
+					<span>Style and tools, JS Frameworks</span>
+				</div>
+			</div>	
+					
+			<div class="list-card">
+				<span class="exp">+ 6 years</span>
+				<div>
+					<h3>Linux</h3>
+					<span>Scripting, Servers management and protocols, Automation</span>
+				</div>
+			</div>
 
-        <!-- Contact -->
-        <section class="bg--secondary-color pt3 pb3">
-            <div class="container">
-                <div class="mb2 align--center">
-                    <h3 class="mb1">Monipuolisempaa opiskelua!</h3>
-                    <p>Mobiililaitteille suunnattu tietovisasovellus, joka mahdollistaa aktivoivan opetustilanteen paikasta riippumatta.</p>
-                </div>
-        </section>
-        
-    </main>
 
-    <!-- Footer -->
-    <footer class="pt2 pb2">
-        <div class="container align--center">
-            <p style="font-size: smaller;">Sovelluksen testaus suoritetaan syksyllä 2020 yhteistyössä </p>
-            <p style="font-size: smaller;">Savonia-ammattikorkeakoulun ensihoidon lehtorin Marko Tolosen kanssa.</p>
-            <ul class="no-bullets list--inline mt1">
-                <li class="mr1"><a href="https://www.facebook.com" class="link"><img class="icon" src="/img/facebook.svg" alt="Facebook"></a></li>
-                <li class="mr1"><a href="https://www.twitter.com" class="link"><img class="icon" src="/img/twitter.svg" alt="Twitter"></a></li>
-                <li><a href="https://www.instagram.com" class="link"><img class="icon" src="/img/instagram.svg" alt="Instagram"></a></li>
-            </ul>
-            <p>&copy; Kaste 2020</p>
-        </div>
-    </footer>
+		</div>
+		<div class="sections">
+				<h2 class="section-title">Interests</h2>
+				
+				<div class="list-card">
+					<div>
+						<h3>Scripting languages</h3>
+						<span>PHP, JS, Bash, Python</span>
+					</div>
+				</div>	
 
-@@include("partials/foot.html")
+				<div class="list-card">
+					<div>
+						<h3>Hacking</h3>
+						<span>Linux, Crawlers, Bots, Network</span>
+					</div>
+				</div>		
+		</div>
+	</div>
+
+	<!-- Achievements -->
+
+	<div class="container cards">
+		
+		<div class="card">
+			<div class="skill-level">
+				<span>+</span>
+				<h2>60</h2>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Projects</h3>
+				<span>Adapting and creating solutions for customer's needs</span>
+			</div>
+		</div>
+
+			
+		<div class="card">
+			<div class="skill-level">
+				<h2>50</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Web</h3>
+				<span>Applications development integrating third-party services and mobile client(s)</span>
+			</div>
+		</div>
+
+			
+		<div class="card">
+			<div class="skill-level">
+				<h2>30</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Technical solutions</h3>
+				<span>Such as web services, scripts, configurations</span>
+			</div>
+		</div>
+
+
+		<div class="card">
+			<div class="skill-level">
+				<h2>20</h2>
+				<span>%</span>
+			</div>
+
+			<div class="skill-meta">
+				<h3>Leading</h3>
+				<span>Web projects and ensure the quality of delivery</span>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Timeeline -->
+
+	<div class="container">
+		<ol class="timeline">
+		  <li>
+		    <p class="line">Experiences</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      Lead Developer @Geronimo
+		    </p>
+		    <span class="date">Today - Apr. 2016</span>
+		  </li>
+
+		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      Freelance
+		    </p>
+		    <span class="date">Apr. 2016 - Sep. 2015</span>
+		  </li>
+
+		  		  <li>
+		    <p class="line">Education</p>
+		    <span class="point"></span>
+		    <p class="description">
+		      DUT "Métiers du multimédia et de l'internet"
+		    </p>
+		    <span class="date">2015 - 2013</span>
+		  </li>
+
+		  		  <li>
+		    <span class="point"></span>
+		    <p class="description">
+		      Art & Design studies
+		    </p>
+		    <span class="date">2013 - 2008</span>
+		  </li>
+		</ol>
+
+	</div>
+
+
+	<br><br>
+
+
+	<footer class="container">
+		<span style="font-size: 16px;"><a>Arttu Jantunen 2020</a></span>
+	</footer>
+
+
+</body>
+</html>
