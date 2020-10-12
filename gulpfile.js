@@ -73,7 +73,7 @@ gulp.task("html", function() {
 
 // CSS task
 gulp.task("css", function() {
-    return gulp.src("src/styles/styles.css")
+    return gulp.src("src/styles/main.scss")
         // Prevent gulp.watch from crashing
         .pipe(plumber(onError))
         // Compile Sass
@@ -122,7 +122,7 @@ gulp.task("default", ["browser-sync"], function () {
         gulp.start("html", reload);
     });
     // Watch Sass files
-    watch("src/scss/**/*", function () {
+    watch("src/styles/**/*", function () {
         gulp.start('css', reload);
     });
     // Watch JS files

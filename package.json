@@ -1,11 +1,15 @@
 {
-  "name": "portfolio",
+  "name": "arttujantunen",
   "version": "1.0.0",
-  "description": "",
-  "author": "arttujantunen",
+  "description": "Personal portfolio",
+  "author": "Arttu Jantunen",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "minify": "gulp minify"
   },
   "private": true,
   "devDependencies": {
