@@ -103,17 +103,6 @@ gulp.task("js", function() {
         .pipe(gulp.dest("dist/js"));
 });
 
-// Image task
-gulp.task("images", function() {
-    return gulp.src("src/img/**/*.+(png|jpeg|jpg|gif|svg)")
-        // Prevent gulp.watch from crashing
-        .pipe(plumber(onError))
-        // Minify the images
-        .pipe(imagemin())
-        // Where to store the finalized images
-        .pipe(gulp.dest("dist/img"));
-});
-
 // Use default task to launch BrowserSync and watch all files
 gulp.task("default", ["browser-sync"], function () {
     // All browsers reload after tasks are complete
@@ -128,9 +117,5 @@ gulp.task("default", ["browser-sync"], function () {
     // Watch JS files
     watch("src/js/**/*", function () {
         gulp.start("js", reload);
-    });
-    // Watch image files
-    watch("src/img/**/*.+(png|jpeg|jpg|gif|svg)", function () {
-        gulp.start("images", reload);
     });
 });
