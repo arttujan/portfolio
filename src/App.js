@@ -2,25 +2,35 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { Container, Row, Col } from 'react-bootstrap';
+import FirstSection from './components/FirstSection';
+import { Container, Row } from 'react-bootstrap';
+import SecondSection from './components/SecondSection';
 
 function App() {
   return (
     <div className="App">
       <Container>
-        <Row>
-          <Col>
+
+        {/* Header */}
+        <Row className="Header">
             <Header />
-          </Col>
         </Row>
-        <Row>
-          <Col sm>1 kortti</Col>
-          <Col sm>2 kortti</Col>
-          <Col sm>3 kortti</Col>
+
+        {/* Skills & Interests */}
+        <Row className="mb-5 Section">
+          <FirstSection />
         </Row>
+
+        {/* Education & Work */}
+        <Row className="mb-5 Section">
+          <SecondSection />
+        </Row>
+
+        {/* Footer */}
         <Row>
           <Footer />
         </Row>
+
       </Container>
     </div>
   );

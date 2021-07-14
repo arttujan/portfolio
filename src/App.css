@@ -1,6 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.MyName {
+    font-size: 5vh;
+    margin-top: 1vh;
+}
+
+.Header {
+    padding-top: 3em;
+    margin-bottom: 10vh;
+}
+
+.Badge {
+    width: 8em;
+    box-shadow: 0.2em 0.3em #222222;
+}
+
+.BadgeText {
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Omakuva {
+   height: 15vh;
+   box-shadow: 0.4em 0.6em #222222;
+}
+
+.LinkedIn {
+    text-decoration: none;
+}
+
+.CardText {
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.Section {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+    padding: 1vh;
+  }
