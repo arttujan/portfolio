@@ -12,6 +12,7 @@ const Header = () => {
                     <h1 className="MyName"><strong>Arttu</strong> Jantunen</h1>
                     <h4 className="text-muted">arttu.jan@gmail.com</h4>
                     <h5><a className="LinkedIn" href="https://www.linkedin.com/in/arttujantunen">LinkedIn</a></h5>
+                    <h5><a className="LinkedIn" href="https://github.com/arttujan">Github</a></h5>
                 </Col>
                 <Col xs={4}>
                     <Image className="Omakuva" src="./images/omakuva.jpeg" rounded />
