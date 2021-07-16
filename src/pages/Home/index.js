@@ -1,7 +1,35 @@
 import React from 'react'
 import { Row, Col, Card, Image } from 'react-bootstrap'
+import { useState, useEffect } from 'react';
+
 const Home = () => {
-    return (
+    // Set loading state to true initially
+    const [loading, setLoading] = useState(true);
+      
+    useEffect(() => {
+      // Loading function to load data or 
+      // fake it using setTimeout;
+      const loadData = async () => {
+  
+        // Wait for two second
+        await new Promise((r) => setTimeout(r, 300));
+  
+        // Toggle loading state
+        setLoading((loading) => !loading);
+      };
+        
+      loadData();
+    }, [])
+      
+    // If page is in loading state, display 
+    // loading message. Modify it as per your 
+    // requirement.
+    if (loading) {
+        return <div className="loading">Software development and desing</div>
+    }
+      
+    // If page is not in loading state, display page.
+    else return (
         <>
             <Row>
                 <Col xs={0} sm={2} md={2}></Col>

@@ -7,6 +7,11 @@
     background-color: #000;
 }
 
+.loading {
+    font-size: xx-large;
+    text-align: center;
+}
+
 .MyName {
     font-size: 5vh;
     margin-top: 1vh;
