@@ -12,7 +12,7 @@ const Education = () => {
       const loadData = async () => {
   
         // Wait for two second
-        await new Promise((r) => setTimeout(r, 300));
+        await new Promise((r) => setTimeout(r, 500));
   
         // Toggle loading state
         setLoading((loading) => !loading);
