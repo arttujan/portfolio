@@ -12,7 +12,7 @@ const Work = () => {
       const loadData = async () => {
   
         // Wait for two second
-        await new Promise((r) => setTimeout(r, 500));
+        await new Promise((r) => setTimeout(r, 700));
   
         // Toggle loading state
         setLoading((loading) => !loading);
