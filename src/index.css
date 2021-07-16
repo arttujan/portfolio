@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'sh-pinscher';
+    src: local('sh-pinscher'), url(./fonts/sh-pinscher/SHPinscher-Regular.otf) format('opentype');
+    font-weight: normal;
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}

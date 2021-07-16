@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
+    font-family: sh-pinscher, serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(51, 255, 0);
     background-color: #000;
 }
@@ -13,12 +12,20 @@
     margin-top: 1vh;
 }
 
+.whoami {
+    font-size: xx-large;
+    margin-bottom: 1em;
+}
+
 .Header {
     padding-top: 3em;
     margin-bottom: 10vh;
+    text-align: center;
 }
 
+
 .Badge {
+    border: 1px solid #222222;
     width: 8em;
     box-shadow: 0.2em 0.3em #222222;
 }
@@ -30,12 +37,23 @@
 }
 
 .Omakuva {
-   height: 15vh;
+   max-width: 50%;
+   min-width: 15vh;
    box-shadow: 0.4em 0.6em #222222;
+   float: right;
+}
+
+.data {
+    text-align: center;
 }
 
 .LinkedIn {
     text-decoration: none;
+}
+
+.MenuLink {
+    text-decoration: none;
+    color: rgb(51, 255, 0);
 }
 
 .CardText {
@@ -44,7 +62,6 @@
 }
 
 .Section {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 1vh;
-  }
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}

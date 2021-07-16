@@ -1,10 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './components/Footer';
 import Header from './components/Header';
-import FirstSection from './components/FirstSection';
-import { Container, Row } from 'react-bootstrap';
-import SecondSection from './components/SecondSection';
+import { Row, Container } from 'react-bootstrap';
+import { Router } from 'react-router-dom';
+import Routes from './routes';
+import history from './services/history';
+
 
 function App() {
   return (
@@ -18,17 +19,9 @@ function App() {
 
         {/* Skills & Interests */}
         <Row className="mb-5 Section">
-          <FirstSection />
-        </Row>
-
-        {/* Education & Work */}
-        <Row className="mb-5 Section">
-          <SecondSection />
-        </Row>
-
-        {/* Footer */}
-        <Row>
-          <Footer />
+          <Router history={history}>
+            <Routes />
+          </Router>
         </Row>
 
       </Container>

@@ -1,22 +1,35 @@
 import React from 'react'
 import '../App.css';
-import { Card, Row, Col, Image } from 'react-bootstrap'
+import { Row, Col, Tooltip, OverlayTrigger } from 'react-bootstrap'
+
+const renderTooltip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+    Go to homepage
+    </Tooltip>
+);
 
 const Header = () => {
     return (
         <>  
             {/* Badge ja nimi */}
-            <Row>
-                <Col xs={8}>
-                    <Card className="Badge" text="light" bg="secondary"><Card.Text className="BadgeText">Developer </Card.Text></Card>
-                    <h1 className="MyName"><strong>Arttu</strong> Jantunen</h1>
-                    <h4 className="text-muted">arttu.jan@gmail.com</h4>
-                    <h5><a className="LinkedIn" href="https://www.linkedin.com/in/arttujantunen">LinkedIn</a></h5>
-                    <h5><a className="LinkedIn" href="https://github.com/arttujan">Github</a></h5>
+            <Row className="whoami">
+                <Col xs={12}>
+                <OverlayTrigger
+                placement="top"
+                delay={{ show: 250, hide: 400 }}
+                overlay={renderTooltip}
+                >
+                    <a className="MenuLink" href="/">whoami</a>
+                </OverlayTrigger>
                 </Col>
-                <Col xs={4}>
-                    <Image className="Omakuva" src="./images/omakuva.jpeg" rounded />
-                </Col>
+            </Row>
+            <Row className="justify-content-md-center menu">
+                <Col xs={0} sm={2}></Col>
+                <Col xs={3} sm={2}><a className="MenuLink" href="/work">/Work</a></Col>
+                <Col xs={3} sm={2}><a className="MenuLink" href="/skills">/Skills</a></Col>
+                <Col xs={3} sm={2}><a className="MenuLink" href="/education">/Education</a></Col>
+                <Col xs={3} sm={2}><a className="MenuLink" href="/interests">/Interests</a></Col>
+                <Col xs={0} sm={2}></Col>
             </Row>
         </>
     )
