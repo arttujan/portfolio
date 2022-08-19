@@ -15,7 +15,7 @@ const Header = () => {
                     <h5><a className="LinkedIn" href="https://github.com/arttujan">Github</a></h5>
                 </Col>
                 <Col xs={4}>
-                    <Image className="Omakuva" src="./images/omakuva.jpeg" rounded />
+                    <Image className="Omakuva" src="./public/images/omakuva.jpeg" rounded />
                 </Col>
             </Row>
         </>
