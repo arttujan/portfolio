@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/arttujan.github.io/portfolio/static/css/main.878545c5.chunk.css",
+    "main.js": "/arttujan.github.io/portfolio/static/js/main.605637be.chunk.js",
+    "main.js.map": "/arttujan.github.io/portfolio/static/js/main.605637be.chunk.js.map",
+    "runtime-main.js": "/arttujan.github.io/portfolio/static/js/runtime-main.1aedaa19.js",
+    "runtime-main.js.map": "/arttujan.github.io/portfolio/static/js/runtime-main.1aedaa19.js.map",
+    "static/css/2.d44d9e5f.chunk.css": "/arttujan.github.io/portfolio/static/css/2.d44d9e5f.chunk.css",
+    "static/js/2.7314a87b.chunk.js": "/arttujan.github.io/portfolio/static/js/2.7314a87b.chunk.js",
+    "static/js/2.7314a87b.chunk.js.map": "/arttujan.github.io/portfolio/static/js/2.7314a87b.chunk.js.map",
+    "index.html": "/arttujan.github.io/portfolio/index.html",
+    "static/css/2.d44d9e5f.chunk.css.map": "/arttujan.github.io/portfolio/static/css/2.d44d9e5f.chunk.css.map",
+    "static/css/main.878545c5.chunk.css.map": "/arttujan.github.io/portfolio/static/css/main.878545c5.chunk.css.map",
+    "static/js/2.7314a87b.chunk.js.LICENSE.txt": "/arttujan.github.io/portfolio/static/js/2.7314a87b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1aedaa19.js",
+    "static/css/2.d44d9e5f.chunk.css",
+    "static/js/2.7314a87b.chunk.js",
+    "static/css/main.878545c5.chunk.css",
+    "static/js/main.605637be.chunk.js"
+  ]
+}
