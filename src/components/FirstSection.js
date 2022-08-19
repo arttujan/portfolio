@@ -11,7 +11,7 @@ const FirstSection = () => {
 
                   <Card.Subtitle className="mb-2 mt-5 text-muted">Web development</Card.Subtitle>
                     <Card.Text className="CardText">
-                      React, Bootstrap, Sass, Node.js, Express, PHP ...
+                      React, Webpack, Websockets, Web architecture, Express, PHP ...
                     </Card.Text>
                 
                   <Card.Subtitle className="mb-2 mt-4 text-muted">Traditional programming</Card.Subtitle>
@@ -21,17 +21,17 @@ const FirstSection = () => {
 
                   <Card.Subtitle className="mb-2 mt-4 text-muted">Server management</Card.Subtitle>
                     <Card.Text className="CardText">
-                      Python scripting, Nginx, Pm2, Azure ...
+                      Python, Nginx, Pm2, Azure ...
                     </Card.Text>
 
                   <Card.Subtitle className="mb-2 mt-4 text-muted">Databases</Card.Subtitle>
                     <Card.Text className="CardText">
-                      MySQL, SQLite, MongoDb ...
+                      MySQL, MariaDB, SQLite, MongoDb ...
                     </Card.Text>
                   
                   <Card.Subtitle className="mb-2 mt-4 text-muted">Mobile development</Card.Subtitle>
                     <Card.Text className="CardText">
-                      Android native (Java), React Native (Expo Cli & React Native Cli) ...
+                      Android native (Java & Kotlin), React Native (Expo Cli & React Native Cli) ...
                     </Card.Text>
 
                   <Card.Subtitle className="mb-2 mt-4 text-muted">Data Science</Card.Subtitle>
@@ -45,12 +45,17 @@ const FirstSection = () => {
           <Col>
           <Card className="border-0">
               <Card.Body>
-                <Card.Title><strong>Interests</strong></Card.Title>
+                <Card.Title><strong>What I actually enjoy</strong></Card.Title>
 
                   <Card.Subtitle className="mb-2 mt-5 text-muted">Web development</Card.Subtitle>
                     <Card.Text className="CardText">
-                      Frontend development and desing with various frameworks and graphic desing tools.
-                      Currently I am protyping with Figma and using React with Material UI and node-sass for development.
+                      Frontend development and design with various frameworks and graphic design tools.
+                    </Card.Text>
+                    <Card.Text className="CardText">
+                      My main tools are Figma for UI / UX design, and React for frontend, which I have both used for several years.
+                    </Card.Text>
+                    <Card.Text className="CardText">
+                      Good architectural design and code maintainability are important for me.
                     </Card.Text>
 
                   <Card.Subtitle className="mb-2 mt-4 text-muted">Mobile development</Card.Subtitle>
@@ -58,7 +63,7 @@ const FirstSection = () => {
                       React native mobile development using Expo Cli or React native Cli.
                     </Card.Text>
                   
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Hobbies</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4 text-muted">Hobbies when I'm not on my computer</Card.Subtitle>
                     <Card.Text className="CardText">
                       Powerlifting and trackbikes.
                     </Card.Text>

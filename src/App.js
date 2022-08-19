@@ -27,7 +27,7 @@ function App() {
         </Row>
 
         {/* Footer */}
-        <Row>
+        <Row className="mb-5 Section">
           <Footer />
         </Row>
 
