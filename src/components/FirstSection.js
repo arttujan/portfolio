@@ -9,32 +9,32 @@ const FirstSection = () => {
               <Card.Body>
                 <Card.Title><strong>Skills</strong></Card.Title>
 
-                  <Card.Subtitle className="mb-2 mt-5 text-muted">Web development</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-5"><strong>Web development</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       React, Webpack, Websockets, Web architecture, Express, PHP ...
                     </Card.Text>
                 
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Traditional programming</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4"><strong>Traditional programming</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Java, C# ...
                     </Card.Text>
 
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Server management</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4"><strong>Server management</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Python, Nginx, Pm2, Azure ...
                     </Card.Text>
 
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Databases</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4"><strong>Databases</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       MySQL, MariaDB, SQLite, MongoDb ...
                     </Card.Text>
                   
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Mobile development</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4"><strong>Mobile development</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Android native (Java & Kotlin), React Native (Expo Cli & React Native Cli) ...
                     </Card.Text>
 
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Data Science</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4"><strong>Data Science</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Hadoop, Hbase, Pig, Excel ...
                     </Card.Text>
@@ -47,7 +47,7 @@ const FirstSection = () => {
               <Card.Body>
                 <Card.Title><strong>What I actually enjoy</strong></Card.Title>
 
-                  <Card.Subtitle className="mb-2 mt-5 text-muted">Web development</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-5"><strong>Web development</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Frontend development and design with various frameworks and graphic design tools.
                     </Card.Text>
@@ -58,12 +58,12 @@ const FirstSection = () => {
                       Good architectural design and code maintainability are important for me.
                     </Card.Text>
 
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Mobile development</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4"><strong>Mobile development</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       React native mobile development using Expo Cli or React native Cli.
                     </Card.Text>
                   
-                  <Card.Subtitle className="mb-2 mt-4 text-muted">Hobbies when I'm not on my computer</Card.Subtitle>
+                  <Card.Subtitle className="mb-2 mt-4"><strong>Hobbies when I'm not on my computer</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Powerlifting and trackbikes.
                     </Card.Text>

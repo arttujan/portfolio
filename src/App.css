@@ -6,6 +6,25 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.link {
+    border : 1px solid #000;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 10px;
+    box-shadow: 4px 4px #367055;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: #367055;
+    cursor: pointer;
+}
+
 .MyName {
     font-size: 5vh;
     margin-top: 1vh;
@@ -16,24 +35,11 @@
     margin-bottom: 10vh;
 }
 
-.Badge {
-    width: 8em;
-    box-shadow: 0.2em 0.3em #222222;
-}
-
 .BadgeText {
     font-size: medium;
     text-align: center;
     font-weight: 600;
-}
-
-.Omakuva {
-   height: 15vh;
-   box-shadow: 0.4em 0.6em #222222;
-}
-
-.LinkedIn {
-    text-decoration: none;
+    color: #000;
 }
 
 .CardText {
@@ -44,6 +50,6 @@
 .Section {
     border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 15px 15px #367055;
     padding: 1vh;
-  }
+}

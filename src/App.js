@@ -5,11 +5,26 @@ import Header from './components/Header';
 import FirstSection from './components/FirstSection';
 import { Container, Row } from 'react-bootstrap';
 import SecondSection from './components/SecondSection';
+import styled from 'styled-components';
+
+const MobileBreakpoint = 768;
+
+const StyledContainer = styled.div.attrs({
+  className: 'container'
+})`
+
+  @media (max-width: ${MobileBreakpoint}px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+`;
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Container>
+    <div className="App p-4">
+      <StyledContainer>
 
         {/* Header */}
         <Row className="Header">
@@ -31,7 +46,7 @@ function App() {
           <Footer />
         </Row>
 
-      </Container>
+      </StyledContainer>
     </div>
   );
 }
