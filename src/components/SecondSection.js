@@ -11,8 +11,11 @@ const SecondSection = () => {
 
                   <Card.Subtitle className="mb-2 mt-5"><strong>Ahjokeskuksen Parturi-Kampaamo Homepage (Freelance)</strong></Card.Subtitle>
                     <Card.Text className="CardText">
-                      Oct. 2020 - Dec. 2020
+                      Oct. 2020 - Dec. 2020 (still maintained and updated when needed)
                     <Card.Link className="CardText" href="https://www.ahjokeskuksenpk.fi/"><strong>ahjokeskuksenpk.fi</strong></Card.Link>
+                    </Card.Text>
+                    <Card.Text className="CardText text-muted">
+                      Designed, developed and published a website for a barbershop / salong.
                     </Card.Text>
 
                   <Card.Subtitle className="mb-2 mt-4"><strong>Page for respiratory mechanics researchers</strong></Card.Subtitle>
@@ -20,10 +23,16 @@ const SecondSection = () => {
                       Feb. 2021 - March 2021
                     <Card.Link className="CardText" href="https://www.hengitysmekaniikka.fi/"><strong>hengitysmekaniikka.fi</strong></Card.Link>
                     </Card.Text>
+                    <Card.Text className="CardText text-muted">
+                      Designed, developed and published a website for a group of researchers.
+                    </Card.Text>
 
                   <Card.Subtitle className="mb-2 mt-4"><strong>Mobile development consulting for Sense4Health Oy</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Feb. 2021 - May 2021
+                    </Card.Text>
+                    <Card.Text className="CardText text-muted">
+                      Consulting for a mobile application development project made with React Native.
                     </Card.Text>
                     
               </Card.Body>
@@ -44,11 +53,17 @@ const SecondSection = () => {
                       Jan. 2021 - Aug. 2021
                      <Card.Link className="CardText"><strong>Software developer</strong></Card.Link>
                     </Card.Text>
+                    <Card.Text className="CardText text-muted">
+                      Fullstack development with React, Node.js, Express, MongoDB and desing with Figma and various other tools.
+                    </Card.Text>
 
                   <Card.Subtitle className="mb-2 mt-4"><strong>Web developer at Prospectum Oy</strong></Card.Subtitle>
                     <Card.Text className="CardText">
                       Aug. 2021 - today
                       <Card.Link className="CardText" href="https://prospectum.fi/"><strong>Prospectum</strong></Card.Link>
+                    </Card.Text>
+                    <Card.Text className="CardText text-muted">
+                      Frontend development with React, mobile development with React Native and desing with Figma. Currently leading the frontend development team.
                     </Card.Text>
                     
               </Card.Body>
