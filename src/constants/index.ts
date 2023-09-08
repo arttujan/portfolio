@@ -15,24 +15,6 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Scrum master",
-    icon: scrum,
-  },
-];
-
-const technologies = [
-  {
-    name: "Scrum",
-    icon: scrum,
-  },
-];
-
 const experiences = [
   {
     title: "Web developer",
@@ -141,4 +123,4 @@ const educations = [
   },
 ];
 
-export { services, technologies, experiences, educations };
+export { experiences, educations };

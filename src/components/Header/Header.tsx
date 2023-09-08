@@ -1,9 +1,9 @@
 /* eslint-disable react-refresh/only-export-components */
-import SectionWrapper from "./SectionWrapper";
-import { styles } from "../styles";
+import SectionWrapper from "../utils/SectionWrapper";
+import { styles } from "../../styles";
 import { BsLinkedin, BsMailbox2, BsGithub } from "react-icons/bs";
 
-const Hero = () => {
+const Header = () => {
   return (
     <section
       className="relative w-full mx-auto"
@@ -67,4 +67,4 @@ const Hero = () => {
   );
 };
 
-export default SectionWrapper(Hero, "about");
+export default SectionWrapper(Header, "about");

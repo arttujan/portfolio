@@ -42,58 +42,15 @@ export const fadeIn = (
   };
 };
 
-export const zoomIn = (delay: any, duration: any) => {
-  return {
-    hidden: {
-      scale: 0,
-      opacity: 0,
-    },
-    show: {
-      scale: 1,
-      opacity: 1,
-      transition: {
-        type: "tween",
-        delay: delay,
-        duration: duration,
-        ease: "easeOut",
-      },
-    },
-  };
-};
-
-export const slideIn = (
-  direction: string,
-  type: any,
-  delay: any,
-  duration: any
-) => {
-  return {
-    hidden: {
-      x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
-      y: direction === "up" ? "100%" : direction === "down" ? "100%" : 0,
-    },
-    show: {
-      x: 0,
-      y: 0,
-      transition: {
-        type: type,
-        delay: delay,
-        duration: duration,
-        ease: "easeOut",
-      },
-    },
-  };
-};
-
-export const staggerContainer = (
-  staggerChildren?: undefined,
+export const Container = (
+  containerChildren?: undefined,
   delayChildren?: undefined
 ) => {
   return {
     hidden: {},
     show: {
       transition: {
-        staggerChildren: staggerChildren,
+        staggerChildren: containerChildren,
         delayChildren: delayChildren || 0,
       },
     },

@@ -1,16 +1,16 @@
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-import { staggerContainer } from "../utils/motion";
+import { styles } from "../../styles";
+import { Container } from "../../utils/motion";
 
 const SectionWrapper = (
   Component: () => JSX.Element,
   idName: string | undefined
 ) =>
-  function HOC() {
+  function Wrapper() {
     return (
       <motion.section
-        variants={staggerContainer()}
+        variants={Container()}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}

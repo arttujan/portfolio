@@ -1,6 +1,6 @@
-import Hero from "./Hero";
-import Navbar from "./Navbar";
-import Experience from "./Experience";
+import Header from "./Header/Header";
+import Navbar from "./Navbar/Navbar";
+import Experience from "./Experience/Experience";
 import Education from "./Education/Education";
 
-export { Hero, Navbar, Experience, Education };
+export { Header, Navbar, Experience, Education };

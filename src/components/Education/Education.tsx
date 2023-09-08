@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { motion } from "framer-motion";
 import { styles } from "../../styles";
-import SectionWrapper from "../SectionWrapper";
+import SectionWrapper from "../utils/SectionWrapper";
 import { educations } from "../../constants";
 import { fadeIn, textVariant } from "../../utils/motion";
 import { EducationCard } from "./components/EducationCard";
