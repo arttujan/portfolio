@@ -1,4 +1,4 @@
-import { web, scrum, mobile, lead, js, react } from "../assets";
+import { web, scrum, mobile, lead, react } from "../assets";
 
 export const navLinks = [
   {
@@ -18,7 +18,7 @@ export const navLinks = [
 const experiences = [
   {
     title: "Web developer",
-    icon: js,
+    icon: web,
     company_name: "Freelance",
     iconBg: "#FFFFFF",
     date: "Oct. 2020 - Dec. 2020",
@@ -41,7 +41,7 @@ const experiences = [
   },
   {
     title: "Fullstack developer",
-    icon: web,
+    icon: react,
     company_name: "Kaste Oy / Freelance",
     iconBg: "#FFFFFF",
     date: "Feb. 2021 - March 2021",

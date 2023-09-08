@@ -4,9 +4,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import omakuva from "./omakuva-muokattu.jpg";
 import scrum from "./scrum.png";
-import js from "./js-icon.jpg";
 import react from "./react-icon.png";
 import mobile from "./mobile.png";
 import lead from "./lead.png";
 
-export { logo, web, menu, close, omakuva, scrum, js, react, mobile, lead };
+export { logo, web, menu, close, omakuva, scrum, react, mobile, lead };
