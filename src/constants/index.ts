@@ -1,21 +1,4 @@
-import {
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  scrum,
-  mobile,
-  lead,
-} from "../assets";
+import { web, scrum, mobile, lead, js, react } from "../assets";
 
 export const navLinks = [
   {
@@ -45,63 +28,15 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Scrum",
     icon: scrum,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
     title: "Web developer",
-    icon: javascript,
+    icon: js,
     company_name: "Freelance",
     iconBg: "#FFFFFF",
     date: "Oct. 2020 - Dec. 2020",
@@ -144,7 +79,7 @@ const experiences = [
   },
   {
     title: "Web developer",
-    icon: reactjs,
+    icon: react,
     company_name: "Prospectum Oy",
     iconBg: "#FFFFFF",
     date: "Aug 2021 - June 2022",
@@ -176,13 +111,13 @@ const experiences = [
     ],
   },
   {
-    title: "Scrum Master",
+    title: "Certified Scrum Master",
     icon: scrum,
     company_name: "Bitcomp Oy",
     iconBg: "#FFFFFF",
     date: "March 2023 - Today",
     points: [
-      "Scrum Master for a team of 5+ developers working mainly with React, AWS, Typescript and Java",
+      "Certified Scrum Master for a team of 5+ developers working mainly with React, AWS, Typescript and Java",
       "Also a part time developer for the team completing various tasks with the mentioned technologies",
     ],
   },

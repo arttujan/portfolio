@@ -1,4 +1,5 @@
-import SectionWrapper from "../hoc/SectionWrapper";
+/* eslint-disable react-refresh/only-export-components */
+import SectionWrapper from "./SectionWrapper";
 import { styles } from "../styles";
 import { BsLinkedin, BsMailbox2, BsGithub } from "react-icons/bs";
 
