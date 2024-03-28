@@ -1,4 +1,4 @@
-import { web, scrum, mobile, lead, react } from "../assets";
+import { web, scrum, mobile, lead, react, aws } from "../assets";
 
 export const navLinks = [
   {
@@ -93,14 +93,26 @@ const experiences = [
     ],
   },
   {
-    title: "Certified Scrum Master",
+    title: "Certified Scrum Master & Software Developer",
     icon: scrum,
     company_name: "Bitcomp Oy",
     iconBg: "#FFFFFF",
-    date: "March 2023 - Today",
+    date: "March 2023 - March 2024",
     points: [
-      "Certified Scrum Master for a team of 5+ developers working mainly with React, AWS, Typescript and Java",
-      "Also a part time developer for the team completing various tasks with the mentioned technologies",
+      "Certified Scrum Master for a team of 5+ developers working mainly with AWS cloud services.",
+      "Fullstack developer for the team, completing various tasks with the mentioned technologies",
+    ],
+  },
+  {
+    title: "Certified Scrum Master & Software Developer",
+    icon: aws,
+    company_name: "Sitowise Oy",
+    iconBg: "#FFFFFF",
+    date: "March 2024 - Today",
+    points: [
+      "As of March 2024 Sitowise has acquired Bitcomp Oy and I have been transferred to Sitowise Oy as a full time employee",
+      "Certified Scrum Master for a team of 5+ developers working mainly with AWS cloud services.",
+      "Fullstack developer for the team, completing various tasks with the mentioned technologies",
     ],
   },
 ];

@@ -7,5 +7,6 @@ import scrum from "./scrum.png";
 import react from "./react-icon.png";
 import mobile from "./mobile.png";
 import lead from "./lead.png";
+import aws from "./aws-logo.png";
 
-export { logo, web, menu, close, omakuva, scrum, react, mobile, lead };
+export { logo, web, menu, close, omakuva, scrum, react, mobile, lead, aws };
