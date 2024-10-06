@@ -1,4 +1,4 @@
-import { web, scrum, mobile, lead, react, aws } from "../assets";
+import { web, scrum, lead, aws } from "../assets";
 
 export const navLinks = [
   {
@@ -28,43 +28,24 @@ const experiences = [
     link: "https://www.ahjokeskuksenpk.fi/",
   },
   {
-    title: "Founder of Kaste Oy",
+    title: "Co-founder and Software Developer",
     icon: web,
     company_name: "Kaste Oy",
     iconBg: "#FFFFFF",
-    date: "Jan. 2020 - Today",
+    date: "January 2020 - June 2024",
     points: [
-      "Kaste is a company that provides software development services, mainly for health care and research.",
-      "We have worked with React, React Native, Node.js, Express, MongoDB, Azure and many other technologies..",
-      "Our business run out of significant funding in 2021 so all the major projects got halted",
-    ],
-  },
-  {
-    title: "Fullstack developer",
-    icon: react,
-    company_name: "Kaste Oy / Freelance",
-    iconBg: "#FFFFFF",
-    date: "Feb. 2021 - March 2021",
-    points: [
-      "Designed, developed and published a private website for a group of researchers working for the university of eastern finland",
-    ],
-  },
-  {
-    title: "Mobile development consultant",
-    icon: mobile,
-    company_name: "Sense4Health Oy / Kaste Oy",
-    iconBg: "#FFFFFF",
-    date: "Jan 2021 - May 2021",
-    points: [
-      "Consulting for a mobile application development project made with React Native",
+      "As a Co-founder of Kaste, a software development company focused on healthcare and research, I led multiple projects from January 2020 to August 2021. We utilized technologies such as React, React Native, Node.js, Express, MongoDB, and Azure.",
+      "We provided consulting services for the University of Eastern Finland, as well as Sense4Health Oy",
+      "Concurrently, we developed an in-house video streaming and quiz platform aimed at helping university teachers enhance their courses.",
+      "Unfortunately, due to a lack of significant funding, all major projects were halted in August 2021. I sold my shares in June 2024.",
     ],
   },
   {
     title: "Web developer",
-    icon: react,
+    icon: web,
     company_name: "Prospectum Oy",
     iconBg: "#FFFFFF",
-    date: "Aug 2021 - June 2022",
+    date: "August 2021 - June 2022",
     points: [
       "Frontend development with React, mobile development with React Native and design with Figma",
     ],
@@ -76,9 +57,10 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "June 2022 - March 2023",
     points: [
-      "Leading the frontend development team. Frontend architecture design",
-      "Frontend development with React, mobile development with React Native",
-      "Also helped with the recruitment of new developers",
+      "Led the frontend development team and designed the frontend architecture for a large-scale rewrite of the Eventos platform using React and TypeScript.",
+      "Managed a team of 3 to 5 developers.",
+      "Involved in recruiting new developers and mentoring team members.",
+      "Oversaw mobile development, including the Eventos mobile app and ticket scanning integrations.",
     ],
   },
   {
@@ -86,14 +68,14 @@ const experiences = [
     icon: lead,
     company_name: "Prospectum Oy",
     iconBg: "#FFFFFF",
-    date: "March 2023 - Today",
+    date: "March 2023 - August 2023",
     points: [
-      "Frontend development with React and design with Figma",
-      "various other tasks related to software architecture, development process and project management",
+      "Continued as a consultant at Prospectum, contributing to frontend development with React and design using Figma.",
+      "Assisted with software architecture, development processes, and project management.",
     ],
   },
   {
-    title: "Certified Scrum Master & Software Developer",
+    title: "Software Developer & Scrum Master",
     icon: scrum,
     company_name: "Bitcomp Oy",
     iconBg: "#FFFFFF",
@@ -104,16 +86,24 @@ const experiences = [
     ],
   },
   {
-    title: "Certified Scrum Master & Software Developer",
+    title: "Software Developer & Scrum Master",
     icon: aws,
     company_name: "Sitowise Oy",
     iconBg: "#FFFFFF",
-    date: "March 2024 - Today",
+    date: "March 2024 - October 2024",
     points: [
       "As of March 2024 Sitowise has acquired Bitcomp Oy and I have been transferred to Sitowise Oy as a full time employee",
       "Certified Scrum Master for a team of 5+ developers working mainly with AWS cloud services.",
       "Fullstack developer for the team, completing various tasks with the mentioned technologies",
     ],
+  },
+  {
+    title: "Senior Software Developer & Scrum Master",
+    icon: aws,
+    company_name: "Sitowise Oy",
+    iconBg: "#FFFFFF",
+    date: "October 2024 - Today",
+    points: ["Title promotion for the previous role "],
   },
 ];
 
@@ -131,7 +121,7 @@ const educations = [
   {
     name: "Scrum Alliance",
     description: "Scrum Master certificate (CSM)",
-    time: "2023 - Expires in March 2025",
+    time: "2023",
   },
 ];
 
