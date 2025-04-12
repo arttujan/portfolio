@@ -115,6 +115,14 @@ const experiences = [
       "Styled and managed map layers using QGIS; implemented spatial features for user needs.",
     ],
   },
+  {
+    title: "Senior Software Developer & Scrum Master",
+    icon: scrum,
+    company_name: "Sitowise Oy (Sisäministeriö)",
+    iconBg: "#FFFFFF",
+    date: "March 2025 - Present",
+    points: ["Classified"],
+  },
 ];
 
 export { experiences, educations };
