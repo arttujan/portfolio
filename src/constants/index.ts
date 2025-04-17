@@ -108,7 +108,7 @@ const experiences = [
   {
     title: "Senior Software Developer",
     icon: web,
-    company_name: "Sitowise Oy (Neova)",
+    company_name: "Sitowise Oy (Neova Oy)",
     iconBg: "#FFFFFF",
     date: "January 2025 - April 2025",
     points: [
@@ -120,10 +120,28 @@ const experiences = [
   {
     title: "Senior Software Developer & Scrum Master",
     icon: scrum,
-    company_name: "Sitowise Oy (Sisäministeriö)",
+    company_name: "Sitowise Oy (Ministry of the Interior)",
     iconBg: "#FFFFFF",
     date: "April 2025 - Present",
     points: ["Worked as a Senior Software Developer & Scrum Master for Ministry of the Interior"],
+  },
+];
+
+const educations = [
+  {
+    name: "Jyväskylän Lyseo",
+    description: "High school graduate",
+    time: "2012 - 2015",
+  },
+  {
+    name: "Savonia",
+    description: "Bachelor of Engineering, Software Engineering",
+    time: "2018 - 2022",
+  },
+  {
+    name: "Scrum Alliance",
+    description: "Scrum Master certificate (CSM)",
+    time: "2023",
   },
 ];
 
