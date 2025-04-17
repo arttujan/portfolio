@@ -1,3 +1,5 @@
+import { web, scrum, lead, aws } from "../assets";
+
 export const navLinks = [
   {
     id: "about",
@@ -105,7 +107,7 @@ const experiences = [
   },
   {
     title: "Senior Software Developer",
-    icon: aws,
+    icon: web,
     company_name: "Sitowise Oy (Neova)",
     iconBg: "#FFFFFF",
     date: "January 2025 - April 2025",
