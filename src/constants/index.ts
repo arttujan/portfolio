@@ -74,7 +74,7 @@ const experiences = [
   {
     title: "Software Developer & Scrum Master",
     icon: scrum,
-    company_name: "Bitcomp Oy",
+    company_name: "Bitcomp Oy (Tornator Oyj)",
     iconBg: "#FFFFFF",
     date: "March 2023 - March 2024",
     points: [
@@ -85,7 +85,7 @@ const experiences = [
   {
     title: "Software Developer & Scrum Master",
     icon: aws,
-    company_name: "Sitowise Oy",
+    company_name: "Sitowise Oy (Tornator Oyj)",
     iconBg: "#FFFFFF",
     date: "March 2024 - October 2024",
     points: [
@@ -96,7 +96,7 @@ const experiences = [
   {
     title: "Senior Software Developer & Scrum Master",
     icon: aws,
-    company_name: "Sitowise Oy",
+    company_name: "Sitowise Oy (Tornator Oyj)",
     iconBg: "#FFFFFF",
     date: "October 2024 - January 2025",
     points: [
@@ -106,9 +106,9 @@ const experiences = [
   {
     title: "Senior Software Developer",
     icon: aws,
-    company_name: "Sitowise Oy",
+    company_name: "Sitowise Oy (Neova)",
     iconBg: "#FFFFFF",
-    date: "January 2025 - March 2025",
+    date: "January 2025 - April 2025",
     points: [
       "Worked as the lead developer on a custom React component for handling maps with OpenLayers.",
       "Integrated GeoServer as a backend for delivering map layers.",
@@ -120,8 +120,8 @@ const experiences = [
     icon: scrum,
     company_name: "Sitowise Oy (Sisäministeriö)",
     iconBg: "#FFFFFF",
-    date: "March 2025 - Present",
-    points: ["Classified"],
+    date: "April 2025 - Present",
+    points: ["Worked as a Senior Software Developer & Scrum Master for Ministry of the Interior"],
   },
 ];
 
