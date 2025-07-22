@@ -13,7 +13,12 @@ import { ExperienceCard } from "./components/ExperienceCard";
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant(0)}>
+      <motion.div
+        variants={textVariant(1)}
+        initial="hidden"
+        animate="show"
+        whileHover="hover"
+      >
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
         </p>

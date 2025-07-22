@@ -9,7 +9,12 @@ import { EducationCard } from "./components/EducationCard";
 const Education = () => {
   return (
     <>
-      <motion.div variants={textVariant(0)}>
+      <motion.div
+        variants={textVariant(1)}
+        initial="hidden"
+        animate="show"
+        whileHover="hover"
+      >
         <p className={`${styles.sectionSubText} text-center`}>my studies</p>
         <h2 className={`${styles.sectionHeadText} text-center`}>Education.</h2>
       </motion.div>

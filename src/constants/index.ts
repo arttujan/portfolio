@@ -101,9 +101,7 @@ const experiences = [
     company_name: "Sitowise Oy (Tornator Oyj)",
     iconBg: "#FFFFFF",
     date: "October 2024 - January 2025",
-    points: [
-      "Title promotion continuing responsibilities from previous role.",
-    ],
+    points: ["Title promotion continuing responsibilities from previous role."],
   },
   {
     title: "Senior Software Developer",
@@ -123,7 +121,9 @@ const experiences = [
     company_name: "Sitowise Oy (Ministry of the Interior)",
     iconBg: "#FFFFFF",
     date: "April 2025 - Present",
-    points: ["Worked as a Senior Software Developer & Scrum Master for Ministry of the Interior"],
+    points: [
+      "Worked as a Senior Software Developer & Scrum Master for Ministry of the Interior",
+    ],
   },
 ];
 
@@ -142,6 +142,11 @@ const educations = [
     name: "Scrum Alliance",
     description: "Scrum Master certificate (CSM)",
     time: "2023",
+  },
+  {
+    name: "Amazon Web Services Training and Certification",
+    description: "AWS Certified Solutions Architect – Associate",
+    time: "2025",
   },
 ];
 

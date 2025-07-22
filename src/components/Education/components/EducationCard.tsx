@@ -21,11 +21,12 @@ export const EducationCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-white p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-white p-5 rounded-2xl sm:w-[300px] w-full"
         style={{
           border: "1px solid black",
           boxShadow: "15px 15px #367055",
           minHeight: "200px",
+          minWidth: "300px",
         }}
       >
         <div

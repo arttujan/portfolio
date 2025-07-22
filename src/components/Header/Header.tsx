@@ -13,7 +13,7 @@ const Header = () => {
         className={`${styles.paddingX} relative inset-0 top-[100px] max-w-7-xl mx-auto flex flex-row items-start justify-center gap-5`}
       >
         <div>
-          <p className={`${styles.heroSubText} mt-4 mb-3 text-black-100`}>
+          <div className={`${styles.heroSubText} mt-4 mb-3 text-black-100`}>
             <div className="flex grow">
               <a
                 href="https://www.linkedin.com/in/arttujantunen"
@@ -28,7 +28,7 @@ const Header = () => {
                 <BsGithub />
               </a>
             </div>
-          </p>
+          </div>
           <h1 className={`${styles.heroHeadText} text-black`}>
             Hi, I'm <span className="text-tertiary">Arttu</span>
           </h1>
