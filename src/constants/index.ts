@@ -106,9 +106,19 @@ const experiences = [
   {
     title: "Senior Software Developer",
     icon: web,
+    company_name: "Sitowise Oy (Helsingin kaupunki)",
+    iconBg: "#FFFFFF",
+    date: "January 2025 - February 2025",
+    points: [
+      "Contributed as a fullstack developer in Helsingin kaupunki's solutions.",
+    ],
+  },
+  {
+    title: "Senior Software Developer",
+    icon: web,
     company_name: "Sitowise Oy (Neova Oy)",
     iconBg: "#FFFFFF",
-    date: "January 2025 - April 2025",
+    date: "February 2025 - April 2025",
     points: [
       "Worked as the lead developer on a custom React component for handling maps with OpenLayers.",
       "Integrated GeoServer as a backend for delivering map layers.",
@@ -120,10 +130,18 @@ const experiences = [
     icon: scrum,
     company_name: "Sitowise Oy (Ministry of the Interior)",
     iconBg: "#FFFFFF",
-    date: "April 2025 - Present",
+    date: "April 2025 - July 2025",
     points: [
       "Worked as a Senior Software Developer & Scrum Master for Ministry of the Interior",
     ],
+  },
+  {
+    title: "System Architect",
+    icon: web,
+    company_name: "Sitowise Oy (Ministry of the Interior)",
+    iconBg: "#FFFFFF",
+    date: "July 2025 - Present",
+    points: ["Worked as a System Architect for Ministry of the Interior"],
   },
 ];
 
