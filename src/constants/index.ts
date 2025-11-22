@@ -34,7 +34,8 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "January 2020 - June 2024",
     points: [
-      "Co-founded a software company focused on healthcare and research projects. Led multiple development efforts using React, React Native, Node.js, Express, MongoDB, and Azure.",
+      "Co-founded a software company focused on healthcare and research projects.",
+      "Led multiple development efforts using various Web and mobile technologies deployed on Azure.",
       "Delivered consulting work for the University of Eastern Finland and Sense4Health Oy.",
       "Built an in-house video streaming and quiz platform to support university teaching.",
       "Stepped away in June 2024 after operations were scaled down due to lack of funding.",
@@ -82,6 +83,8 @@ const experiences = [
     points: [
       "Certified Scrum Master for a development team working mainly with AWS cloud services.",
       "Contributed as a fullstack developer across several projects.",
+      "Maintained and developed new features for the largest private forest owner's platform in Finland.",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions.",
     ],
   },
   {
@@ -93,6 +96,8 @@ const experiences = [
     points: [
       "Transitioned to Sitowise Oy after its acquisition of Bitcomp Oy.",
       "Continued in the role of Scrum Master and fullstack developer, focusing on AWS-based solutions.",
+      "Maintained and developed new features for the largest private forest owner's platform in Finland.",
+      "Collaborated with cross-functional teams to deliver high-quality software solutions.",
     ],
   },
   {
@@ -110,7 +115,8 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "January 2025 - February 2025",
     points: [
-      "Contributed as a fullstack developer in Helsingin kaupunki's solutions.",
+      "Contributed as a fullstack developer for Helsingin kaupunki.",
+      "Maintained and improved a map service called Karttakori.",
     ],
   },
   {
@@ -133,6 +139,7 @@ const experiences = [
     date: "April 2025 - July 2025",
     points: [
       "Worked as a Senior Software Developer & Scrum Master for Ministry of the Interior",
+      "Project consisted of developing a new system for unification of emergency handling operations.",
     ],
   },
   {
@@ -141,7 +148,10 @@ const experiences = [
     company_name: "Sitowise Oy (Ministry of the Interior)",
     iconBg: "#FFFFFF",
     date: "July 2025 - Present",
-    points: ["Worked as a System Architect for Ministry of the Interior"],
+    points: [
+      "Worked as a System Architect for Ministry of the Interior",
+      "Project consisted of developing a new system for unification of emergency handling operations.",
+    ],
   },
 ];
 
